@@ -4,9 +4,14 @@
   "main": "index.js",
   "author": "Douglas Poma <douglaspoma@yahoo.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "test": "vitest"
+  },
   "devDependencies": {
     "@types/node": "^20.4.9",
     "tsx": "^3.12.7",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "vitest": "^0.34.1"
   }
 }
