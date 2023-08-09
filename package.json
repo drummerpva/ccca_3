@@ -9,7 +9,9 @@
     "test": "vitest"
   },
   "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
     "@types/node": "^20.4.9",
+    "eslint": "^8.46.0",
     "tsx": "^3.12.7",
     "typescript": "^5.1.6",
     "vitest": "^0.34.1"
